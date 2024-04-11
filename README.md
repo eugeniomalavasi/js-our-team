@@ -13,11 +13,14 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 [x] MILESTONE :zero::
 Creare l’array di oggetti con le informazioni fornite.
 
-[ ] MILESTONE :uno:
+[x] MILESTONE :uno:
 Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
+    - creare un ciclo for per stampare tutti gli object
+        - per stampare gli elementi interni agli object usare un ciclo for in
 
 [ ] MILESTONE :due::
 Stampare le stesse informazioni su DOM sottoforma di stringhe
+    - 
 
 [ ] BONUS 1 :stella2::
 Trasformare la stringa foto in una immagine effettiva

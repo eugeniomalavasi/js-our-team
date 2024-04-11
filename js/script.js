@@ -40,4 +40,16 @@ for (let i = 0; i < teamData.length; i++)  { //object
         console.log(curObj[key]);
     }
     console.log("------------------------------");
+    
+    // MILESTONE 2
+    const printCard = document.querySelector(".row").innerHTML += 
+    `<div class="card" style="width: 18rem;">
+    <img src="./img/${curObj.img}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">${curObj.name}</h5>
+        <h6 class="role">Role: ${curObj.role}</h6>
+    </div>
+    </div>`
 }
+
+console.log(teamData[5].role);
