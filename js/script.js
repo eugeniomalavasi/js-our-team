@@ -1,34 +1,49 @@
 // MILESTONE 0
 const teamData = [
     {
-        name: "Wayne Barnett",
-        role: "Founder & CEO",
-        img: "wayne-barnett-founder-ceo.jpg"
+        name: "Aragorn",
+        role: "Re di Gondor",
+        img: "aragorn.webp"
     },
     {
-        name: "Angela Caroll",
-        role: "Chief Editor",
-        img: "angela-caroll-chief-editor.jpg"
+        name: "Boromir",
+        role: "Capitano di Gondor",
+        img: "boromir.webp"
     },
     {
-        name: "Walter Gordon",
-        role: "Office Manager",
-        img: "walter-gordon-office-manager.jpg"
+        name: "Frodo Baggins",
+        role: "Portare dell'anello",
+        img: "Frodo_Elijah_Wood.webp"
     },
     {
-        name: "Angela Lopez",
-        role: "Social Media Manager",
-        img: "angela-lopez-social-media-manager.jpg"
+        name: "Gandalf",
+        role: "Ainur",
+        img: "Gandalf.jpg"
     },
     {
-        name: "Scott Estrada",
-        role: "Developer",
-        img: "scott-estrada-developer.jpg"
+        name: "Gimli",
+        role: "Amico degli Elfi",
+        img: "gimli.jpg"
     },
     {
-        name: "Barbara Ramos",
-        role: "Graphic Designer",
-        img: "barbara-ramos-graphic-designer.jpg"
+        name: "Legolas",
+        role: "Elfo insopportabile",
+        img: "legolas.jpeg"
+    },
+    {
+        name: "Peregrino Tuc",
+        role: "Guardia bianca",
+        img: "Peregrino.webp"
+    },
+    {
+        name: "Samvise Gamgee",
+        role: "Sindaco di Hobbyville",
+        img: "sam.webp"
+    },
+    {
+        name: "Merryadoc Brandibuck",
+        role: "Gozzovigliatore",
+        img: "Merry.webp"
     }
 ]
 console.log(teamData);
@@ -43,8 +58,8 @@ for (let i = 0; i < teamData.length; i++)  { //object
     
     // MILESTONE 2
     const printCard = document.querySelector(".row").innerHTML += 
-    `<div class="card" style="width: 18rem;">
-    <img src="./img/${curObj.img}" class="card-img-top" alt="...">
+    `<div class="card">
+    <img src="./img/${curObj.img}" class="card-img-top" alt="lotr">
     <div class="card-body">
         <h5 class="card-title">${curObj.name}</h5>
         <h6 class="role">Role: ${curObj.role}</h6>

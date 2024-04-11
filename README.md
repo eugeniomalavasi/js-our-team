@@ -18,12 +18,12 @@ Stampare su console le informazioni di nome, ruolo e la stringa della foto per o
     - creare un ciclo for per stampare tutti gli object
         - per stampare gli elementi interni agli object usare un ciclo for in
 
-[ ] MILESTONE :due::
+[x] MILESTONE :due::
 Stampare le stesse informazioni su DOM sottoforma di stringhe
     - 
 
-[ ] BONUS 1 :stella2::
+[x] BONUS 1 :stella2::
 Trasformare la stringa foto in una immagine effettiva
 
-[ ] BONUS 2 :stella2: :stella2:
+[x] BONUS 2 :stella2: :stella2:
 Organizzare i singoli membri in card/schede. Se non vi sentite particolarmente creativi, potete prendere uno spunto dallo screenshot allegato.
