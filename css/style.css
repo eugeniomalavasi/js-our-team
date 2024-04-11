@@ -1,4 +1,10 @@
+img {
+    height: 300px;
+}
 body {
-    font-family: "Pacifico", cursive;
-    
+    font-family: "Yellowtail", cursive;
+}
+
+h1 {
+    font-size: 4em;
 }
