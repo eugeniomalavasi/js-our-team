@@ -1,33 +1,43 @@
+// MILESTONE 0
 const teamData = [
     {
-        Name: "Wayne Barnett",
-        Role: "Founder & CEO",
+        name: "Wayne Barnett",
+        role: "Founder & CEO",
         img: "wayne-barnett-founder-ceo.jpg"
     },
     {
-        Name: "Angela Caroll",
-        Role: "Chief Editor",
+        name: "Angela Caroll",
+        role: "Chief Editor",
         img: "angela-caroll-chief-editor.jpg"
     },
     {
-        Name: "Walter Gordon",
-        Role: "Office Manager",
+        name: "Walter Gordon",
+        role: "Office Manager",
         img: "walter-gordon-office-manager.jpg"
     },
     {
-        Name: "Angela Lopez",
-        Role: "Social Media Manager",
+        name: "Angela Lopez",
+        role: "Social Media Manager",
         img: "angela-lopez-social-media-manager.jpg"
     },
     {
-        Name: "Scott Estrada",
-        Role: "Developer",
+        name: "Scott Estrada",
+        role: "Developer",
         img: "scott-estrada-developer.jpg"
     },
     {
-        Name: "Barbara Ramos",
-        Role: "Graphic Designer",
+        name: "Barbara Ramos",
+        role: "Graphic Designer",
         img: "barbara-ramos-graphic-designer.jpg"
     }
 ]
 console.log(teamData);
+
+// MILESTONE 1
+for (let i = 0; i < teamData.length; i++)  { //object
+    curObj = teamData[i]; 
+    for (let key in curObj) {
+        console.log(curObj[key]);
+    }
+    console.log("------------------------------");
+}
